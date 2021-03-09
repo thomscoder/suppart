@@ -118,7 +118,7 @@ a {
 
 #flipbook .hard{
     background:rgb(48, 48, 48) !important;
-    background-image: url(../texture.png) !important;
+    background-image: url(texture.png) !important;
     color:#333;
     -webkit-box-shadow:inset 0 0 5px #666;
     -moz-box-shadow:inset 0 0 5px #666;
