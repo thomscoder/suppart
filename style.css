@@ -10,7 +10,7 @@ body >h1 {
     padding: 1rem;
     color: black;
     background-color: white;
-    font-family: 'Freestyle Script';
+    font-family: 'Freestyle Script',monospace;
     font-size: 2rem;
     text-align: center;
     margin-top: 0;
@@ -44,7 +44,7 @@ h1 span {
     font-size: 7rem;
     margin-top: 5rem;
     padding: 0;
-    font-family: 'Freestyle Script';
+    font-family: 'Freestyle Script',monospace;
     color: white;
    mix-blend-mode: overlay;
 }
