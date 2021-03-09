@@ -1,2 +1,2 @@
 <?php
-    include("index.html");
+include("suppart/index.html");
