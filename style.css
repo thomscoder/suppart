@@ -10,7 +10,7 @@ body >h1 {
     padding: 1rem;
     color: black;
     background-color: white;
-    font-family: 'Freestyle Script',monospace;
+    font-family: 'Freestyle Script',Arial, Helvetica, sans-serif;
     font-size: 2rem;
     text-align: center;
     margin-top: 0;
@@ -22,17 +22,45 @@ h1 span {
     text-transform: uppercase;
     letter-spacing: .3rem;
 }
-
-#monopattino {
-    width: 40%;
-    mix-blend-mode: multiply;
-    margin-bottom: 1rem;
-    margin-left: 9rem;
+h2 {
+    font-family: 'Freestyle Script', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.15rem;
 }
-.monopattino {
-    width: 50%;
+.overlap {
+    width: 90%;
+    height: 84%;
+    margin-top: 3rem;
+    mix-blend-mode: luminosity;
+}
+.certificato {
+    cursor: pointer;
+    width: 72%;
+    mix-blend-mode: multiply;
+     box-shadow: inset 0 0 40px #000000;
+}
+#monopattino {
+    width: 80%;
     mix-blend-mode: multiply;
     margin-top: 3%;
+    box-shadow: inset 0 0 40px #000000;
+}
+.monopattino {
+    width: 40%;
+    mix-blend-mode: multiply;
+    margin-top: 3%;
+    box-shadow: inset 0 0 40px #000000;
+}
+.newmono {
+    width: 90%;
+    mix-blend-mode: multiply;
+    margin-top: 3%;
+    box-shadow: inset 0 0 40px #000000;
+}
+.secondo img:last-of-type {
+    margin-top: 4rem;
+}
+.monopattino:hover {
+    mix-blend-mode: unset;
 }
 .hard img {
     margin-top: 3rem;
